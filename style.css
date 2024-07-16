@@ -121,22 +121,36 @@
     position: relative;
     top: -60px;
 }
+.a-video{
+    position: relative;
+}
 .a-video video{
     width: 70%;
     position: absolute;
     left: 15%;
-    top: -80px;
+    top: -150px;
 }
-.a-menu {
+.a-menu{
+    position: relative;
+}
+.a-menu-left {
     position: absolute;
-    bottom: -140%;
+    top: 450px;
+    display: flex;
+    padding: 30px 20px;
+    gap: 60px;
+    left: 100px;
+}
+.a-menu-right {
+    position: absolute;
+    top: 450px;
     display: flex;
     padding: 30px 20px;
     gap: 60px;
     right: 20px;
 }
+
 .a-menu-left {
-    padding: 40px 30px;
     width: 30%;
 }
 .a-menu-left h4{
