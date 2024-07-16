@@ -141,8 +141,8 @@
 .a-menu-left {
     position: absolute;
     top: 375px;
-    display: flex;
-    padding: 30px 20px;
+    display: block;
+    padding: 30px 30px 0px 0px;
     gap: 60px;
     left: 100px;
 }
