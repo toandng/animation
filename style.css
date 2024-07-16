@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 /* menu-1 */
-.menu-1{
-    background: linear-gradient(rgb(44,54,206),rgb(85,40,198),rgb(116,26,191));
-    min-height: 100vh;
+.wrapper{
+    background: linear-gradient( rgb(44,54,206),rgb(85,40,198),rgb(116,26,191));
+    
 }
 .a{
     text-align: center;
@@ -102,6 +102,11 @@
     padding: 0px 30px;
 
 }
+.menu-back{
+    background-color: #EDF1F5;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
 /* video */
 .a-video video{
     position: absolute;
@@ -113,12 +118,12 @@
 }
 /* menu-2 */
 .menu-2{
-    background-image: linear-gradient(to bottom,#9258ab, #8816BA);
     padding-bottom: 90px;
     box-shadow: 0px -20px 17px #7B28B567;
-    border-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
     background: #EDF1F5; padding: 130px 25px 180px 25px;
-    position: relative;
+
     top: -60px;
 }
 .a-video{
@@ -135,7 +140,7 @@
 }
 .a-menu-left {
     position: absolute;
-    top: 450px;
+    top: 375px;
     display: flex;
     padding: 30px 20px;
     gap: 60px;
@@ -143,7 +148,7 @@
 }
 .a-menu-right {
     position: absolute;
-    top: 450px;
+    top: 375px;
     display: flex;
     padding: 30px 20px;
     gap: 60px;
@@ -166,6 +171,9 @@
     padding: 40px 0px;
 }
 /* menu-3 */
+.menu-3{
+    background-color: #EDF1F5;
+}
 .d-text{
     margin-top: 30%;
     padding: 20px 250px;
@@ -661,9 +669,14 @@
     padding: 5px 0px;
 }
 /* menu-13 */
+.back-footer{
+    background-color: #0A0F40;
+}
 .menu-13{
     background-color: #EDF1F5;
-    border-bottom-left-radius: 20px;
+    padding: 100px 0px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 .b{
     text-align: center;
@@ -695,11 +708,8 @@
     box-shadow: 10px 10px 30px;
 }
 /* menu-14 */
-footer{
-    background-color: #0A0F40;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    margin-top: 100px;
+.menu-footer {
+    background: #0A0F40;
 }
 .t-top-col h3{
     color: #F99420;
@@ -783,4 +793,7 @@ footer ul li a::before{
 }
 .t-down-2 span{
     color: #F99420;
+}
+.footer-p{
+    margin-bottom: 0px;
 }

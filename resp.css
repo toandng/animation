@@ -1,8 +1,78 @@
-@media (min-width:1024px) {
+@media  (min-width: 1024px) {
     .video-mobile{
         display: none;
     }
+    .a-menu-mobile{
+        display: none;
+    }
+    /* menu-2 */
+    .a-menu-left-mobile{
+        display: block;
+        position: absolute;
+        top: 200px;
+        text-align: center;
+        width: 80%;
+    }
+    .a-menu-right-mobile{
+        position: absolute;
+        top: 270px;
+        right: 18%;
+    }
+    /* menu-3 */
+    .d-text h2{
+        text-align: center;
+        margin: 100px 0px;
+    }
+    .d-text p{
+        text-align: center;
+        width: 100%;
+    }
+    /* menu-5 */
+    .text-2{
+        position: absolute;
+        top: 16%;
+    }
+    .text-3{
+        position: absolute;
+        top: 21%;
+    }
+    .text-4{
+        position: absolute;
+        top: 25%;
+    }
+    .text-6{
+        position: absolute;
+        top: 16%;
+    }
+    .text-7{
+       top: 21%;
+        position: absolute;
+    }
+    .text-8{
+        position: absolute;
+        top: 25%;
+    }
+    /* menu-8 */
+    .c-tap-list ul {
+        display: none;
+    }
     /* menu-9 */
+    .text-15{
+        position: absolute;
+        right: -30%;
+    }
+    .text-16{
+        position: absolute;
+        right: -30%;
+    }
+    .text-14{
+        font-size: 12px;
+    }
+    .text-12{
+        font-size: 14px;
+        position: absolute;
+        top: 40%;
+    }
     .text-13-1 {
         display: none;
     }
@@ -41,9 +111,138 @@
         display: none;
     }
 }
-
-@media(max-width:768px) {
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
     /* menu-1 */
+    .a-menu{
+        display: none;
+    }
+    .a-menu-mobile{
+        position: relative;
+        top: 150px;
+    }
+    .a-logo{
+        max-width: 550px;
+    }
+    .video-mobile{
+        display: none;
+    }
+    /* menu-2 */
+    .a-menu-left{
+        position: absolute;
+        top: 130px;
+        width: 80%;
+        display: block;
+    }
+    .a-menu-right{
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        right: -70px;
+    }
+    /* menu-3 */
+    .d-text{
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .d-text p{
+        text-align: center;
+        width: 100%;
+    }
+    .row-content h2{
+        text-align: center;
+    }
+    /* menu-5 */
+    .text-2{
+        position: absolute;
+        top: 17%;
+    }
+    .text-3{
+        position: absolute;
+        top: 23%;
+    }
+    .text-4{
+        position: absolute;
+        top: 28%;
+    }
+    .text-6{
+        position: absolute;
+        top: 17%;
+    }
+    .text-7{
+        position: absolute;
+        top: 23%;
+    }
+    .text-8{
+        position: absolute;
+        top: 28%;
+    }
+    .text-10{
+        position: absolute;
+        top: 25%;
+    }
+    /*  */
+    .c-tap-list ul{
+        display: none;
+    }
+    /* menu-9 */
+    .n-content-menu{
+        display: block;
+    }
+    .n-content-list-1{
+        padding: 0px 0px;
+    }
+    .n-content-list-2{
+        padding: 30px 0px;
+    }
+    .text-11-1{
+        display: none;
+    }
+    .text-13{
+        font-size: 11px;
+        padding: 0px 0px;
+    }
+    .text-13-1{
+        display: none;
+    }
+    .text-13-2{
+        display: none;
+    }
+    .text-13-3{
+        display: none;
+    }
+    .text-14{
+        font-size: 11px;
+    }
+    .text-14-1{
+        display: none;
+    }
+    .text-14-2{
+        display: none;
+    }
+    .text-14-3{
+        display: none;
+    }
+    .text-15-1 {
+        display: none;
+    }
+    .text-16-1{
+        display: none;
+    }
+    .text-16-2{
+        display: none;
+    }
+    /* menu-10 */
+    .m-menu-mobile {
+        display: none;
+    }
+}
+/* mobile */
+@media(max-width: 740px ) {
+    /* menu-1 */
+    .a-menu-mobile{
+        display: none;
+    }
     .a-tap-menu{
         display: block;
     }
@@ -74,11 +273,14 @@
     }
     .a-menu-left {
         width: 100%;
-        padding: 0px 0px;
+        padding: 10px 0px;
         text-align: center;
+        position: unset;
+        display: block;
     }
     .a-menu-right{
         width: 100%;
+        position: unset;
 
     }
     .a-icon img{
@@ -213,12 +415,12 @@
     }
     .text-13-2 {
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 20px;
     }
     .text-13-3{
         position: absolute;
-        top: 90%;
+        top: 70%;
         left: 20px;
     }
     .n-content-list-2 {
@@ -230,7 +432,7 @@
     }
     .text-14-1{
         position: absolute;
-        top: 15%;
+        top: 20%;
         left: 20px;
     }
     .text-14-2{
@@ -240,7 +442,7 @@
     }
     .text-14-3{
         position: absolute;
-        top: 90%;
+        top: 60%;
         left: 20px;
     }
     /* menu-10 */
@@ -286,6 +488,10 @@
         color: #000;
         font-weight: 600;
 
+    }
+    .b-down button{
+        height: 48px;
+        width: 200px;
     }
    /* footer */
    .t-top{

@@ -12,6 +12,7 @@
     <script src="/Animation/aos-master/dist/aos.js"></script>
 </head>
 <body>
+<div class="wrapper">
     <header class="menu-1">
         <div class="container">
             <div class="a-header">
@@ -64,9 +65,10 @@
             </div>
         </div>
     </header>
+    <div class="menu-back">
   <section class="menu-2">
-    <div class="container" style="height: 100px;">
-        <div class="s-frame-menu" style="height: 100px;">         
+    <div class="container">
+        <!-- <div class="s-frame-menu">          -->
             <div class="a-video">
                 <video src="/video/newhome-loop-video.mp4" autoplay muted loop playsinline poster="https://www.animaker.com/Animaker-Home/new-assets/Homepage-OG.webp"></video>
             </div>     
@@ -83,7 +85,21 @@
                     </div>
                 </div>
             </div>   
-        </div>
+        <!-- </div> -->
+         <!-- mobile -->
+         <div class="a-menu-mobile">
+            <div class="a-menu-left-mobile" data-aos="fade-up"
+                data-aos-duration="1000">
+                <h4>Awards Galore!</h4>
+                <p>Animaker was voted as the No.1 Best Design Product of the World.</p>
+            </div>
+            <div class="a-menu-right-mobile" data-aos="fade-up"
+                    data-aos-duration="1000">
+                <div class="a-icon">
+                    <img src="/img/Badges-Stack.svg" alt="">
+                </div>
+            </div>
+        </div>   
     </div>
   </section>
     <section class="menu-3">
@@ -337,7 +353,7 @@
                         data-aos-duration="1000">Dive deep into Animaker’s ecosystem
                             of Products designed for every type of creator</p>
                         <img src="/img/Graphic-Animaker.webp" alt="" data-aos="fade-up"
-                        data-aos-duration="1000">
+                        data-aos-duration="1000" class="text-16-2">
                      </div>
                     <div class="n-content-menu-2" data-aos="fade-up"
                     data-aos-duration="1000">
@@ -670,7 +686,7 @@
                 data-aos-duration="2000">
                     <ul data-aos="fade-up"
                     data-aos-duration="2000">
-                        <li > git add README.md
+                        <li >
                             <h4 class="w-display">What is Animaker?</h4>  
                             <p class="p-display">Animaker is an online video-making platform that can help beginners, professionals, and everyone else create animated and live-action videos in a matter of minutes.</p>     
                         </li>
@@ -697,7 +713,12 @@
             </div>
         </div>
     </section>
-    <section class="menu-13">
+    
+    
+    </div>
+</div>
+<div class="back-footer">
+<section class="menu-13">
         <div class="container">
             <div class="b">
                 <div class="b-top">
@@ -710,6 +731,8 @@
             </div>
         </div>
     </section>
+</div>
+<div class="menu-footer">
     <footer >
         <div class="container">
             <div class="t-top-col">
@@ -893,10 +916,11 @@
             <div class="t-down-2">
                 <img src="/img/footer-logo.webp" alt="">
                 <p>Videos, <span>Done Right!</span></p>
-                <p>Copyright © 2024 <span>Animaker Inc</span>, All rights reserved</p>
+                <p class="footer-p">Copyright © 2024 <span>Animaker Inc</span>, All rights reserved</p>
             </div>
         </div>
     </footer>
+</div>
     <script src="/main.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
